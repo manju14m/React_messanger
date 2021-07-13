@@ -1,0 +1,55 @@
+.container {
+  height: 90vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .form-holder {
+    width: 400px;
+    background: #beb1b1;
+    border: 1px solid #ced4da;
+    box-sizing: border-box;
+    border-radius: 4px;
+    // margin: 10px auto;
+    form {
+      padding: 20px;
+    }
+    h2 {
+      margin: 10px 0;
+      text-align: center;
+    }
+    .form-group {
+      margin: 20px 20px;
+    }
+
+    input {
+      background: #f4f4f4;
+      border-radius: 4px;
+      font-size: 14px;
+      font-weight: 400;
+      height: 41px;
+      border: none;
+      width: 100%;
+      outline: none;
+      padding-left: 10px;
+      &:focus {
+        border-bottom: 2px solid red;
+      }
+    }
+    p {
+      margin-left: 20px;
+    }
+    button {
+      padding: 10px;
+      width: 40%;
+      background-color: rgb(109, 240, 109);
+      border: none;
+      cursor: pointer;
+      color: white;
+      &:hover {
+        filter: opacity(0.8);
+      }
+    }
+  }
+}

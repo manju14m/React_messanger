@@ -1,0 +1,16 @@
+.MuiAppBar-colorPrimary {
+  color: #9817ee !important;
+  background-color: white !important;
+  z-index: 100 !important;
+}
+
+.navlink {
+  color: white;
+  color: #9817ee;
+  text-decoration: none;
+}
+
+.activenavlink {
+  color: #057a49;
+}
+/*# sourceMappingURL=header.css.map */

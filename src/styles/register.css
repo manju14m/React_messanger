@@ -1,0 +1,70 @@
+.container {
+  height: 90vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .form-holder {
+  width: 400px;
+  background: #beb1b1;
+  border: 1px solid #ced4da;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.container .form-holder form {
+  padding: 20px;
+}
+
+.container .form-holder h2 {
+  margin: 10px 0;
+  text-align: center;
+}
+
+.container .form-holder .form-group {
+  margin: 20px 20px;
+}
+
+.container .form-holder input {
+  background: #f4f4f4;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 400;
+  height: 41px;
+  border: none;
+  width: 100%;
+  outline: none;
+  padding-left: 10px;
+}
+
+.container .form-holder input:focus {
+  border-bottom: 2px solid red;
+}
+
+.container .form-holder p {
+  margin-left: 20px;
+}
+
+.container .form-holder button {
+  padding: 10px;
+  width: 40%;
+  background-color: #6df06d;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+
+.container .form-holder button:hover {
+  -webkit-filter: opacity(0.8);
+          filter: opacity(0.8);
+}
+/*# sourceMappingURL=register.css.map */
